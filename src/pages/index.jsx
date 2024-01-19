@@ -1,9 +1,11 @@
-import { Header, Hero } from "@/component/containers/index";
+import { Header, Hero, About, Skills } from "@/component/containers/index";
 export default function Home() {
   return (
-    <div className="justify-center">
+    <div className="flex flex-wrap justify-center ">
       <Header />
       <Hero />
+      <About />
+      <Skills />
     </div>
   );
 }

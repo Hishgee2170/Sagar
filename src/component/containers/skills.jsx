@@ -24,7 +24,7 @@ export const Skills = () => {
 
   return (
     <div className="flex px-[80px] py-[96px] w-[1440px] h-[560px] flex-col justify-center items-center self-stretch gap-[48px]">
-      <div className="flex flex-col items-start gap-[16px] self-stretch justify-center">
+      <div className="flex flex-col  gap-[16px] self-stretch items-center">
         <Button className=" w-[1216px] h-[28px]" name={"Skills"} />
         <div className="flex flex-col justify-center items-center self-stretch text-gray-600">
           The skills, tools and technologies I am really good at:

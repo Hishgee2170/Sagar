@@ -2,10 +2,12 @@ export const Header = () => {
   return (
     <div
       className="flex w-[1440px] h-[68px] px-[80px]
-    py-[16px] justify-between items-center self-stretch"
+    py-[16px] justify-between items-center self-stretch fixed top-0 bg-white bg-opacity-70"
     >
       <div className="px-[32px] flex justify-between items-center flex-1">
-        <div className="text-center text-3xl not-italic font-bold leading-9">{"<SS />"}</div>
+        <div className="text-center text-3xl not-italic font-bold leading-9">
+          {"<SS />"}
+        </div>
         <div className="flex justify-center items-center gap-[24px]">
           <div>About</div>
           <div>Work</div>
